@@ -106,7 +106,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>1997</BioYear>
-          Born in Hangzhou, China.
+          Born in Hangzhou (杭州), China.
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
@@ -136,23 +136,22 @@ const Home = () => (
         <Paragraph>
           <Link href="https://www.instagram.com/pseudo.yu/" target="_blank">
             Photography
-          </Link>
-          ,
+          </Link>, 
           <Link href="https://www.douban.com/people/pseudo-yu/" target="_blank">
-            Reading
+            Reading 
           </Link>
-          ,
+          , 
           <Link
             href="https://www.pseudoyu.com/zh/category/ideas/"
             target="_blank"
           >
             Thinking
           </Link>
-          ,
+          , 
           <Link href="https://www.pseudoyu.com" target="_blank">
             Writing
           </Link>
-          ,
+          , 
           <Link href="https://space.bilibili.com/5374948" target="_blank">
             Video-editing
           </Link>
