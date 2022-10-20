@@ -4,7 +4,7 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
+  // SimpleGrid,
   Button,
   List,
   ListItem,
@@ -16,10 +16,10 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+// import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+// import thumbYouTube from '../public/images/links/youtube.png'
+// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -80,12 +80,12 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Yu is a blockchain & golang developer based in China with a passion
-          for building wonderful web3 products. He has a knack for various 
-          technical stacks about blockchain, from designing and building ÐApp 
-          to solving real-life problems with smart contracts. When not online,
-          he loves writing blogs, hanging out with his camera and do video-editing.
-          He publishes content about his life and work in his personal blog called
-          &quot;
+          for building wonderful web3 products. He has a knack for various
+          technical stacks about blockchain, from designing and building ÐApp to
+          solving real-life problems with smart contracts. When not online, he
+          loves writing blogs, hanging out with his camera and do video-editing.
+          He publishes content about his life and work in his personal blog
+          called &quot;
           <NextLink href="https://www.pseudoyu.com" passHref>
             <Link target="_blank">Pseudoyu</Link>
           </NextLink>
@@ -110,15 +110,18 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          Established Wuhan Geek Education Technology co., LTD (武漢极课教育科技有限公司).
+          Established Wuhan Geek Education Technology co., LTD
+          (武漢极课教育科技有限公司).
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Completed the Bachelor&apos;s Program in the Wuhan University of Technology (WHUT, 武漢理工大學).
+          Completed the Bachelor&apos;s Program in the Wuhan University of
+          Technology (WHUT, 武漢理工大學).
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Completed the Master&apos;s Program in the University of Hong Kong (HKU, 香港大學).
+          Completed the Master&apos;s Program in the University of Hong Kong
+          (HKU, 香港大學).
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
@@ -133,18 +136,25 @@ const Home = () => (
         <Paragraph>
           <Link href="https://www.instagram.com/pseudo.yu/" target="_blank">
             Photography
-          </Link>, 
+          </Link>
+          ,
           <Link href="https://www.douban.com/people/pseudo-yu/" target="_blank">
             Reading
-          </Link>,
-          <Link href="https://www.pseudoyu.com/zh/category/ideas/" target="_blank">
+          </Link>
+          ,
+          <Link
+            href="https://www.pseudoyu.com/zh/category/ideas/"
+            target="_blank"
+          >
             Thinking
-          </Link>,
+          </Link>
+          ,
           <Link href="https://www.pseudoyu.com" target="_blank">
             Writing
-          </Link>,
+          </Link>
+          ,
           <Link href="https://space.bilibili.com/5374948" target="_blank">
-          Video-editing
+            Video-editing
           </Link>
         </Paragraph>
       </Section>
