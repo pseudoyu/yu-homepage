@@ -71,18 +71,18 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
-            Works
+          <LinkItem href="/projects" path={path}>
+            Projects
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/videos" path={path}>
+            Videos
           </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">
-            Uses
+          <LinkItem href="https://www.pseudoyu.com/">
+            Articles
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/pseudoyu"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -90,7 +90,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            GitHub
           </LinkItem>
         </Stack>
 
@@ -109,20 +109,20 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                <NextLink href="/projects" passHref>
+                  <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                <NextLink href="/videos" passHref>
+                  <MenuItem as={Link}>Videos</MenuItem>
                 </NextLink>
-                <NextLink href="https://uses.craftz.dog/" passHref>
-                  <MenuItem as={Link}>Uses</MenuItem>
+                <NextLink href="https://www.pseudoyu.com/" passHref>
+                  <MenuItem as={Link}>Articles</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/pseudoyu"
                 >
-                  View Source
+                  View My GitHub
                 </MenuItem>
               </MenuList>
             </Menu>

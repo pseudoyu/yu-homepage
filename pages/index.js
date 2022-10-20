@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m a blockchain & web3 developer based in China!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Yu Zhang
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Life Explorer ( Blockchain / Programming / Photography )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/pseudoyu.webp"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -79,24 +79,20 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
+          Yu is a blockchain & golang developer based in China with a passion
+          for building wonderful web3 products. He has a knack for various 
+          technical stacks about blockchain, from designing and building ÐApp 
+          to solving real-life problems with smart contracts. When not online,
+          he loves writing blogs, hanging out with his camera and do video-editing.
+          He publishes content about his life and work in his personal blog called
+          &quot;
+          <NextLink href="https://www.pseudoyu.com" passHref>
+            <Link target="_blank">Pseudoyu</Link>
           </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          &quot; which has more than 10k page views per month.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
+          <NextLink href="/projects" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
@@ -109,22 +105,24 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1997</BioYear>
+          Born in Hangzhou, China.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2018</BioYear>
+          Established Wuhan Geek Education Technology co., LTD (武漢极课教育科技有限公司).
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2019</BioYear>
+          Completed the Bachelor&apos;s Program in the Wuhan University of Technology (WHUT, 武漢理工大學).
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2021</BioYear>
+          Completed the Master&apos;s Program in the University of Hong Kong (HKU, 香港大學).
+        </BioSection>
+        <BioSection>
+          <BioYear>2021 to present</BioYear>
+          Worked as blockchain developer at Ziggurat.
         </BioSection>
       </Section>
 
@@ -133,15 +131,21 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          <Link href="https://www.instagram.com/pseudo.yu/" target="_blank">
             Photography
+          </Link>, 
+          <Link href="https://www.douban.com/people/pseudo-yu/" target="_blank">
+            Reading
+          </Link>,
+          <Link href="https://www.pseudoyu.com/zh/category/ideas/" target="_blank">
+            Thinking
+          </Link>,
+          <Link href="https://www.pseudoyu.com" target="_blank">
+            Writing
+          </Link>,
+          <Link href="https://space.bilibili.com/5374948" target="_blank">
+          Video-editing
           </Link>
-          , Leica, Machine Learning
         </Paragraph>
       </Section>
 
@@ -151,52 +155,41 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/pseudoyu" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @pseudoyu
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/pseudo_yu" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @pseudo_yu
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/pseudo.yu" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @pseudo.yu
               </Button>
             </Link>
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
@@ -211,12 +204,12 @@ const Home = () => (
           >
             A Markdown note-taking app
           </GridItem>
-        </SimpleGrid>
+        </SimpleGrid> */}
 
         <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
+          <NextLink href="/videos" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
+              Popular videos
             </Button>
           </NextLink>
         </Box>

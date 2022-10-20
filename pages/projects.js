@@ -23,36 +23,36 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
+          {/* <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
             A Markdown note-taking app with 100+ plugins, cross-platform and
             encrypted data sync support
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
         <Section>
-          <WorkGridItem
+          {/* <WorkGridItem
             id="walknote"
             title="walknote"
             thumbnail={thumbWalknote}
           >
             Music recommendation app for iOS
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
+          {/* <WorkGridItem
             id="fourpainters"
             title="The four painters"
             thumbnail={thumbFourPainters}
           >
             A video work generated with deep learning, imitating famous four
             painters like Van Gogh
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
+          {/* <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
             An app that suggests ramen(noodle) shops based on a given photo of
             the ramen you want to eat
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
       </SimpleGrid>
 
@@ -60,30 +60,30 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Projects
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
+          {/* <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
             A website of the elite app development and contracting agency based
             in Austria
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem
+          {/* <WorkGridItem
             id="modetokyo"
             thumbnail={thumbModeTokyo}
             title="mode.tokyo"
           >
             The mode magazine for understanding to personally enjoy Japan
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
+          {/* <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
             A VR Creative tools for fashion brands
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
       </SimpleGrid>
 
@@ -91,30 +91,30 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          Others
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
+          {/* <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
             Twitter client app for iPhone Safari
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
         <Section delay={0.5}>
-          <WorkGridItem
+          {/* <WorkGridItem
             id="freedbtagger"
             thumbnail={thumbFreeDBTagger}
             title="freeDBTagger"
           >
             Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
+          {/* <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
             P2P private file sharing tool with MSN Messenger integration for
             Windows
-          </WorkGridItem>
+          </WorkGridItem> */}
         </Section>
       </SimpleGrid>
     </Container>

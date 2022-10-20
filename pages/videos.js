@@ -22,31 +22,21 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How to build a portfolio website"
-            thumbnail={thumbPortfolio}
-            href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
-          />
-          <GridItem
-            title="How to take notes in Markdown efficiently with Inkdrop"
-            thumbnail={thumbHowToUseInkdrop}
-            href="https://www.youtube.com/watch?v=-qBavwqc_mY"
-          />
-          <GridItem
-            title="My Fish workflow"
-            thumbnail={thumbFishWorkflow}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
-          />
-          <GridItem
-            title="My desk setup (Late 2020)"
+            title="30 minutes study with me | HKU"
             thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
+            href="https://www.bilibili.com/video/BV1a54y1s7xV/"
+          />
+          <GridItem
+            title="45 minutes study with me | HKU"
+            thumbnail={thumbHowToUseInkdrop}
+            href="https://www.bilibili.com/video/BV1cZ4y1c7mt/"
           />
         </SimpleGrid>
       </Section>
 
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
+          {/* <GridItem
             title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
             thumbnail={thumb500PaidUsers}
             href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820"
@@ -55,13 +45,13 @@ const Posts = () => (
             title="I stopped setting a financial goal for my SaaS"
             thumbnail={thumbFinancialGoal}
             href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
-          />
+          /> */}
         </SimpleGrid>
       </Section>
 
       <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
+          {/* <GridItem
             title="How to Price Yourself as a Freelance Developer"
             thumbnail={thumbHowToPriceYourself}
             href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
@@ -70,7 +60,7 @@ const Posts = () => (
             title="I made my React Native app 50x faster"
             thumbnail={thumb50xFaster}
             href="https://www.youtube.com/watch?v=vj723NlrIQc"
-          />
+          /> */}
         </SimpleGrid>
       </Section>
     </Container>
