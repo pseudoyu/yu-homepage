@@ -33,7 +33,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Yu Zhang
+            Yu ZHANG
           </Text>
         </LogoBox>
       </a>

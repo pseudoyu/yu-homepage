@@ -29,7 +29,7 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
-      <Box borderRadius="lg" mb={3} p={3}></Box>
+      <Box borderRadius="lg" mb={2} p={2}></Box>
       <Box
         borderRadius="lg"
         mb={6}
@@ -44,7 +44,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Yu Zhang
+            Yu ZHANG
           </Heading>
           <p>Life Explorer ( Blockchain / Programming / Photography )</p>
         </Box>
@@ -128,6 +128,10 @@ const Home = () => (
           <BioYear>2021 to present</BioYear>
           Worked as blockchain developer at Ziggurat.
         </BioSection>
+        <BioSection>
+          <BioYear>2022 to present</BioYear>
+          Indie Developer & Freelancer.
+        </BioSection>
       </Section>
 
       <Section delay={0.3}>
@@ -158,6 +162,14 @@ const Home = () => (
             Video-editing
           </Link>
         </Paragraph>
+
+        <Box align="center" my={4}>
+          <NextLink href="/videos" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Popular videos
+            </Button>
+          </NextLink>
+        </Box>
       </Section>
 
       <Section delay={0.3}>
@@ -216,14 +228,6 @@ const Home = () => (
             A Markdown note-taking app
           </GridItem>
         </SimpleGrid> */}
-
-        <Box align="center" my={4}>
-          <NextLink href="/videos" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular videos
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
     </Container>
   </Layout>

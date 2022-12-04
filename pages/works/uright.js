@@ -3,44 +3,41 @@ import {
   Badge,
   Link,
   List,
-  ListItem,
-  AspectRatio
+  ListItem
+  // AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
+// import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="STYLY">
+  <Layout title="Uright">
     <Container>
       <Title>
-        STYLY <Badge>2017</Badge>
+        Uright <Badge>2021</Badge>
       </Title>
-      <P>
-        STYLY Studio is a creative tool for VR, allowing you to build virtual
-        spaces towards extending fashion brand&apos;s expression ability of
-        their concept. I built its web UI and backend.
-      </P>
+      <P>A Music Copyright Protection ÐApp</P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web</span>
+          <span>ÐApp</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React, PHP</span>
+          <span>Solidity, Angular</span>
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://styly.cc/">
-            STYLY <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/pseudoyu/uright">
+            Uright <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/YLdHAggLBCw"
           title="YouTube video player"
@@ -53,7 +50,7 @@ const Work = () => (
       <WorkImage src="/images/works/styly_eyecatch.png" alt="STYLY" />
       <WorkImage src="/images/works/styly_01.png" alt="STYLY" />
       <WorkImage src="/images/works/styly_02.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_03.png" alt="STYLY" />
+      <WorkImage src="/images/works/styly_03.png" alt="STYLY" /> */}
     </Container>
   </Layout>
 )
