@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
@@ -15,6 +15,7 @@ import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jp
 const Posts = () => (
   <Layout title="Posts">
     <Container>
+      <Box borderRadius="lg" mb={3} p={3}></Box>
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Posts
       </Heading>

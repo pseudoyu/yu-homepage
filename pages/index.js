@@ -29,6 +29,7 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
+      <Box borderRadius="lg" mb={3} p={3}></Box>
       <Box
         borderRadius="lg"
         mb={6}
@@ -136,22 +137,23 @@ const Home = () => (
         <Paragraph>
           <Link href="https://www.instagram.com/pseudo.yu/" target="_blank">
             Photography
-          </Link>, 
-          <Link href="https://www.douban.com/people/pseudo-yu/" target="_blank">
-            Reading 
           </Link>
-          , 
+          ,
+          <Link href="https://www.douban.com/people/pseudo-yu/" target="_blank">
+            Reading
+          </Link>
+          ,
           <Link
             href="https://www.pseudoyu.com/zh/category/ideas/"
             target="_blank"
           >
             Thinking
           </Link>
-          , 
+          ,
           <Link href="https://www.pseudoyu.com" target="_blank">
             Writing
           </Link>
-          , 
+          ,
           <Link href="https://space.bilibili.com/5374948" target="_blank">
             Video-editing
           </Link>
